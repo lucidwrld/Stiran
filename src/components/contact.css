@@ -1,0 +1,334 @@
+.contact {
+ width: 100%;
+ min-height: 140vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.contactt {
+ width: 60%;
+ height: 130vh;
+ border-radius: 10px;
+ padding-left: 10px;
+ background-color: rgba(0, 0, 0, 0.082);
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+}
+
+.contactt .title {
+ font-size: 40px;
+ color: rgb(73, 2, 73);
+ text-align: center;
+ font-family: "Signika";
+}
+
+.contactt p {
+ font-size: 20px;
+ margin-top: 20px;
+ text-transform: uppercase;
+ color: black;
+ font-weight: 800;
+ font-family: "Signika";
+}
+
+.contactt a {
+ font-size: 20px;
+ color: rgb(73, 2, 73);
+ text-transform: lowercase;
+ text-decoration: underline;
+ font-weight: 200;
+ font-family: "Signika";
+}
+
+.contactt h2 {
+ margin-top: 30px;
+ font-size: 35px;
+ color: rgb(73, 2, 73);
+ text-align: center;
+ font-family: "Signika";
+}
+
+.contactt form {
+ width: 98.8%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+.contactt form label {
+ font-size: 20px;
+ margin-top: 20px;
+ text-transform: uppercase;
+ color: black;
+ font-weight: 800;
+ font-family: "Signika";
+}
+
+.contactt form input {
+ font-size: 20px;
+ margin-top: 5px;
+ width: 100%;
+ height: 40px;
+ border-radius: 10px;
+ padding-left: 10px;
+ border: 1px solid rgba(73, 2, 73, 0.384);
+ outline: none;
+ color: rgb(73, 2, 73);
+ font-family: "Signika";
+}
+
+.contactt form textarea {
+ font-size: 20px;
+ margin-top: 5px;
+ width: 100%;
+ height: 160px;
+ padding-left: 10px;
+ border-radius: 10px;
+ border: 1px solid rgba(73, 2, 73, 0.384);
+ outline: none;
+ color: rgb(73, 2, 73);
+ font-family: "Signika";
+}
+
+.contactt form .submit {
+ width: 180px;
+ cursor: pointer;
+ padding-left: 0;
+ height: 7vh;
+}
+
+.contactt form .submit:hover {
+ background-color: rgb(73, 2, 73);
+ color: #FFFFFF;
+}
+
+@media (min-width:280px) and (max-width:999px) {
+ .contactt {
+  width: 95%;
+  height: 130vh;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: rgba(0, 0, 0, 0.082);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+ }
+
+ .contactt form input {
+  height: 60px;
+ }
+
+ .contactt form textarea {
+  height: 460px;
+ }
+
+}
+
+@media (min-width:500px) and (max-width:699px) {
+ .contactt {
+  width: 95%;
+  height: 130vh;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: rgba(0, 0, 0, 0.082);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+ }
+
+ .contactt .title {
+  font-size: 35px;
+ }
+
+ .contactt p {
+  font-size: 18px;
+  margin-top: 20px;
+ }
+
+ .contactt a {
+  font-size: 18px;
+  color: rgb(73, 2, 73);
+ }
+
+ .contactt h2 {
+  margin-top: 30px;
+  font-size: 30px;
+ }
+
+ .contactt form label {
+  font-size: 18px;
+  margin-top: 20px;
+ }
+
+ .contactt form input {
+  height: 40px;
+  font-size: 16px;
+ }
+
+ .contactt form textarea {
+  height: 180px;
+  font-size: 16px;
+ }
+
+}
+
+@media (min-width:400px) and (max-width:499px) {
+ .contactt {
+  width: 95%;
+  height: 130vh;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: rgba(0, 0, 0, 0.082);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+ }
+
+ .contactt .title {
+  font-size: 30px;
+ }
+
+ .contactt p {
+  font-size: 16px;
+  margin-top: 20px;
+ }
+
+ .contactt a {
+  font-size: 16px;
+  color: rgb(73, 2, 73);
+ }
+
+ .contactt h2 {
+  margin-top: 30px;
+  font-size: 28px;
+ }
+
+ .contactt form label {
+  font-size: 16px;
+  margin-top: 20px;
+ }
+
+ .contactt form input {
+  height: 35px;
+  font-size: 15px;
+ }
+
+ .contactt form textarea {
+  height: 160px;
+  font-size: 15px;
+ }
+
+ .contactt form .submit {
+  height: 5vh;
+  width: 120px;
+  font-size: 16px;
+ }
+}
+
+@media (min-width:300px) and (max-width:399px) {
+ .contactt {
+  width: 95%;
+  height: 130vh;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: rgba(0, 0, 0, 0.082);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+ }
+
+ .contactt .title {
+  font-size: 25px;
+ }
+
+ .contactt p {
+  font-size: 13px;
+  margin-top: 20px;
+ }
+
+ .contactt a {
+  font-size: 13px;
+  color: rgb(73, 2, 73);
+ }
+
+ .contactt h2 {
+  margin-top: 20px;
+  font-size: 20px;
+ }
+
+ .contactt form label {
+  font-size: 13px;
+  margin-top: 20px;
+ }
+
+ .contactt form input {
+  height: 30px;
+  font-size: 13px;
+ }
+
+ .contactt form textarea {
+  height: 160px;
+  font-size: 13px;
+ }
+
+ .contactt form .submit {
+  height: 5vh;
+  width: 120px;
+  font-size: 13px;
+ }
+}
+
+@media (min-width:280px) and (max-width:299px) {
+ .contactt {
+  width: 95%;
+  height: 130vh;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: rgba(0, 0, 0, 0.082);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+ }
+
+ .contactt .title {
+  font-size: 20px;
+ }
+
+ .contactt p {
+  font-size: 10px;
+  margin-top: 20px;
+ }
+
+ .contactt a {
+  font-size: 10px;
+  color: rgb(73, 2, 73);
+ }
+
+ .contactt h2 {
+  margin-top: 20px;
+  font-size: 18px;
+ }
+
+ .contactt form label {
+  font-size: 10px;
+  margin-top: 20px;
+ }
+
+ .contactt form input {
+  height: 30px;
+  font-size: 10px;
+ }
+
+ .contactt form textarea {
+  height: 160px;
+  font-size: 10px;
+ }
+
+ .contactt form .submit {
+  height: 5vh;
+  width: 120px;
+  font-size: 13px;
+ }
+}

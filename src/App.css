@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.App .logo {
+  background-image: url(/src/assets/logo.jpg);
+  height: 5vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 14vh;
+}
+
+.App .navbar {
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #000000;
+  z-index: 10;
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.144);
+}
+
+.App .navbar .nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.App .navbar .nav-links>a {
+  color: rgb(65, 64, 64);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App .navBtn {
+  width: 18vh;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App .navBtn button {
+  width: 8vh;
+  height: 6vh;
+  border: 0px;
+  color: #000000;
+  cursor: pointer;
+  color: rgb(65, 64, 64);
+  font-size: 20px;
+  outline: none;
+  background-color: #FFFFFF;
+}
+
+@media (min-width: 700px) and (max-width:799px) {
+  .App .logo {
+    height: 5vh;
+    width: 10vh;
+  }
+
+  .App .navbar .nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .App .navbar .nav-links>a {
+    font-size: 15px;
+  }
+
+  .App .navBtn {
+    width: 18vh;
+    height: 8vh;
+  }
+
+  .App .navBtn button {
+    width: 8vh;
+    height: 6vh;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 500px) and (max-width:699px) {
+  .App .logo {
+    height: 5vh;
+    width: 10vh;
+    margin-top: 8px;
+  }
+
+  .App .navbar .nav-links {
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .App .navbar .nav-links>a {
+    font-size: 13px;
+  }
+
+  .App .navBtn {
+    width: 10vh;
+    height: 8vh;
+  }
+
+  .App .navBtn button {
+    width: 4vh;
+    height: 6vh;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 400px) and (max-width:499px) {
+  .App .logo {
+    height: 4vh;
+    margin-top: 4px;
+    width: 8vh;
+  }
+
+  .App .navbar .nav-links {
+    width: 240px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .App .navbar .nav-links>a {
+    font-size: 12px;
+  }
+
+  .App .navBtn {
+    width: 8.3vh;
+    height: 8vh;
+  }
+
+  .App .navBtn button {
+    width: 4vh;
+    height: 5vh;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 300px) and (max-width:399px) {
+  .App .logo {
+    height: 4vh;
+    margin-top: 5px;
+    width: 8vh;
+  }
+
+  .App .navbar .nav-links {
+    width: 210px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .App .navbar .nav-links>a {
+    font-size: 10px;
+  }
+
+  .App .navBtn {
+    width: 8.3vh;
+    height: 8vh;
+  }
+
+  .App .navBtn button {
+    width: 4vh;
+    height: 5vh;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 280px) and (max-width:299px) {
+  .App .logo {
+    height: 3vh;
+    margin-top: 9px;
+    width: 5vh;
+  }
+
+  .App .navbar .nav-links {
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .App .navbar .nav-links>a {
+    font-size: 8px;
+  }
+
+  .App .navBtn {
+    width: 6.3vh;
+    height: 8vh;
+  }
+
+  .App .navBtn button {
+    width: 3vh;
+    height: 5vh;
+    font-size: 10px;
+  }
+}
